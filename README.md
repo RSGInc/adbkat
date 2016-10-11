@@ -18,6 +18,7 @@ npm install adbkat
 
 ## Contributing
 Before submitting a pull request, make sure that you...
+
 1. Write/edit documentation for all new/modified members that are exposed by a module.
 2. If any documentation was written/edited, run `npm run jsdoc` and inspect the new/modified portions for correctness.
 3. Write unit tests for all new sufficiently significant functions. If a function has a name or is exposed by a module, then it is significant enough that it should be tested.
