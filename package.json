@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/RSGInc/adbkat/issues"
   },
-  "homepage": "https://github.com/RSGInc/adbkat#readme"
+  "homepage": "https://github.com/RSGInc/adbkat#readme",
+  "devDependencies": {
+    "jasmine": "2.5.2"
+  }
 }
