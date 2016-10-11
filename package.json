@@ -1,0 +1,24 @@
+{
+  "name": "adbkat",
+  "version": "1.0.0",
+  "description": "Encapsulates adbkit's client and device within a common structure.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSGInc/adbkat.git"
+  },
+  "keywords": [
+    "adb",
+    "adbkit",
+    "android"
+  ],
+  "author": "RSG, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RSGInc/adbkat/issues"
+  },
+  "homepage": "https://github.com/RSGInc/adbkat#readme"
+}
