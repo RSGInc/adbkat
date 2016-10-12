@@ -4,6 +4,7 @@
   "description": "Encapsulates adbkit's client and device within a common structure.",
   "main": "src/index.js",
   "scripts": {
+    "jsdoc": "jsdoc -r src",
     "lint": "eslint --max-warnings 0 \"src/**/*.js\"",
     "test": "jasmine"
   },
