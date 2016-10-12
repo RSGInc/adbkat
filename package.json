@@ -4,6 +4,7 @@
   "description": "Encapsulates adbkit's client and device within a common structure.",
   "main": "src/index.js",
   "scripts": {
+    "lint": "eslint --max-warnings 0 \"src/**/*.js\"",
     "test": "jasmine"
   },
   "repository": {
@@ -22,6 +23,10 @@
   },
   "homepage": "https://github.com/RSGInc/adbkat#readme",
   "devDependencies": {
+    "babel-eslint": "7.0.0",
+    "eslint": "3.7.1",
+    "eslint-config-defaults": "9.0.0",
+    "eslint-plugin-react": "6.4.1",
     "jasmine": "2.5.2"
   }
 }
