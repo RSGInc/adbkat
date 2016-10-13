@@ -34,6 +34,7 @@
     "proxyquire": "1.7.10"
   },
   "dependencies": {
-    "adbkit": "2.6.0"
+    "adbkit": "2.6.0",
+    "console-prefix": "1.0.0"
   }
 }
