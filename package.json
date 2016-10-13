@@ -29,6 +29,7 @@
     "eslint-config-defaults": "9.0.0",
     "eslint-plugin-react": "6.4.1",
     "jasmine": "2.5.2",
+    "jasmine-promises": "0.4.1",
     "jsdoc": "3.4.2",
     "proxyquire": "1.7.10"
   }
