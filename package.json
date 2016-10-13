@@ -32,5 +32,8 @@
     "jasmine-promises": "0.4.1",
     "jsdoc": "3.4.2",
     "proxyquire": "1.7.10"
+  },
+  "dependencies": {
+    "adbkit": "2.6.0"
   }
 }
