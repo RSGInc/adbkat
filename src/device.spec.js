@@ -1,7 +1,5 @@
 const proxyquire = require(`proxyquire`);
 
-require(`jasmine-promises`);
-
 describe(`Device`, () => {
     describe(`constructor`, () => {
         let client, id, device;
