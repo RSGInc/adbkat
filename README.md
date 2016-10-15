@@ -24,3 +24,5 @@ Before submitting a pull request, make sure that you...
 3. Write unit tests for all new sufficiently significant functions. If a function has a name or is exposed by a module, then it is significant enough that it should be tested.
 4. Run all unit tests with `npm test` and correct all failures.
 5. Run ESLint with `npm run lint` and correct all warnings and errors.
+
+## API
