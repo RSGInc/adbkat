@@ -9,6 +9,8 @@ class Device {
      * Constructs a Device that will communicate with the specified device
      * using the specified client.
      *
+     * #jsdoc-ignore
+     *
      * @private
      * @param {Client} client The adbkit client that will be used to communicate
      * with the device. See {@link https://github.com/openstf/adbkit#client adbkit.Client}.
@@ -24,7 +26,7 @@ class Device {
      * Retrieves the phone number of the device.
      *
      * This function uses {@link http://adbshell.com/commands/adb-shell-dumpstate dumpstate},
-     * which may not be reliable a reliable method of retrieving the phone
+     * which may not be a reliable method of retrieving the phone
      * number, depending on your device model. For that reason this function
      * should be considered experimental, and should only be used if you know
      * that dumpstate can be used to retrieve your device's phone number.
