@@ -47,22 +47,22 @@ Before submitting a pull request, make sure that you...
 ### adbkat
 Encapsulates adbkit's client and device within a common structure.
 
-**Author:** RSG, Inc.
+**Author:** RSG, Inc.  
 <a name="module_adbkat.getDevices"></a>
 
 #### adbkat.getDevices() ⇒ <code>Promise.&lt;Array.&lt;Device&gt;&gt;</code>
 Retrieves the [Device](#Device)s that represent the devices that are
 connected to the computer via ADB.
 
-**Kind**: static method of <code>[adbkat](#module_adbkat)</code>
+**Kind**: static method of <code>[adbkat](#module_adbkat)</code>  
 **Returns**: <code>Promise.&lt;Array.&lt;Device&gt;&gt;</code> - A promise that resolves with the devices that
-are connected to the computer via ADB.
+are connected to the computer via ADB.  
 <a name="Device"></a>
 
 ### Device
 A device that can be communicated with via ADB.
 
-**Kind**: global class
+**Kind**: global class  
 
 * [Device](#Device)
     * [.getPhoneNumber()](#Device+getPhoneNumber) ⇒ <code>Promise.&lt;String&gt;</code>
@@ -84,17 +84,17 @@ that dumpstate can be used to retrieve your device's phone number.
 Note that the promise will take a few minutes to resolve, due to the
 size of dumpstate's output.
 
-**Kind**: instance method of <code>[Device](#Device)</code>
+**Kind**: instance method of <code>[Device](#Device)</code>  
 **Returns**: <code>Promise.&lt;String&gt;</code> - A promise that resolves with the device's
-phone number.
+phone number.  
 <a name="Device+install"></a>
 
 #### device.install(apk) ⇒ <code>Promise.&lt;Boolean&gt;</code>
 Installs the specified apk file onto the device.
 
-**Kind**: instance method of <code>[Device](#Device)</code>
+**Kind**: instance method of <code>[Device](#Device)</code>  
 **Returns**: <code>Promise.&lt;Boolean&gt;</code> - A promise that resolves with true when the app
-is successfully installed.
+is successfully installed.  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -107,9 +107,9 @@ Runs the specified shell command on the device. See the official
 [ADB shell documentation](https://developer.android.com/studio/command-line/shell.html)
 for valid commands.
 
-**Kind**: instance method of <code>[Device](#Device)</code>
+**Kind**: instance method of <code>[Device](#Device)</code>  
 **Returns**: <code>Promise.&lt;String&gt;</code> - A promise that resolves with the string output
-of the command when the command finishes.
+of the command when the command finishes.  
 
 | Param | Type | Description |
 | --- | --- | --- |
@@ -120,9 +120,9 @@ of the command when the command finishes.
 #### device.uninstall(pkg) ⇒ <code>Promise.&lt;Boolean&gt;</code>
 Uninstalls the specified package from the device.
 
-**Kind**: instance method of <code>[Device](#Device)</code>
+**Kind**: instance method of <code>[Device](#Device)</code>  
 **Returns**: <code>Promise.&lt;Boolean&gt;</code> - A promise that resolves with true when the
-package is finished uninstalling.
+package is finished uninstalling.  
 
 | Param | Type | Description |
 | --- | --- | --- |
