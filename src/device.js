@@ -9,6 +9,8 @@ class Device {
      * Constructs a Device that will communicate with the specified device
      * using the specified client.
      *
+     * #jsdoc-ignore
+     *
      * @private
      * @param {Client} client The adbkit client that will be used to communicate
      * with the device. See {@link https://github.com/openstf/adbkit#client adbkit.Client}.
