@@ -3,7 +3,7 @@
 **adbkat** reduces the amount of code needed to use [adbkit](https://github.com/openstf/adbkit) by exposing a Device object that interacts with a specific [device](https://github.com/openstf/adbkit#clientlistdevicescallback) over a specific [client](https://github.com/openstf/adbkit#client) connection.
 
 ## Dependencies
-* [Node.js](https://nodejs.org) >= 0.10
+* [Node.js](https://nodejs.org) >= 6.4.0
 * [Android SDK Platform-tools](https://developer.android.com/studio/index.html#downloads) ^24.0.1 with the `adb` command included on the system path.
 
 ## Installation
