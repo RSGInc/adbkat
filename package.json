@@ -1,0 +1,41 @@
+{
+  "name": "adbkat",
+  "version": "1.0.0",
+  "description": "Encapsulates adbkit's client and device within a common structure.",
+  "main": "src/index.js",
+  "scripts": {
+    "jsdoc": "node jsdoc.js",
+    "lint": "eslint --max-warnings 0 \"src/**/*.js\"",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSGInc/adbkat.git"
+  },
+  "keywords": [
+    "adb",
+    "adbkit",
+    "android"
+  ],
+  "author": "RSG, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RSGInc/adbkat/issues"
+  },
+  "homepage": "https://github.com/RSGInc/adbkat#readme",
+  "devDependencies": {
+    "babel-eslint": "7.0.0",
+    "eslint": "3.7.1",
+    "eslint-config-defaults": "9.0.0",
+    "eslint-plugin-react": "6.4.1",
+    "jasmine": "2.5.2",
+    "jasmine-promises": "0.4.1",
+    "jsdoc-to-markdown": "2.0.0",
+    "mz": "2.4.0",
+    "proxyquire": "1.7.10"
+  },
+  "dependencies": {
+    "adbkit": "2.6.0",
+    "console-prefix": "1.0.0"
+  }
+}

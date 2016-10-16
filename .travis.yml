@@ -1,0 +1,27 @@
+language: node_js
+
+node_js:
+- "6.4"
+- "6"
+- "node"
+
+script:
+- npm run lint
+- npm test
+
+deploy:
+  - provider: npm
+    email: "codestothestars@yahoo.com"
+    api_key:
+      secure: "WaYASGikbqdzmi+XZ/ksIsUWR+BmDIj5h+riygbb77XBOYF4hKoswP7U9EtiNFBMZbu6APoBOZ60t56OsA11yWo+hY72itzPk5tijxCb+a+msHx8bhkDGBAPUPClKjZITLjd/L2P+4TTA42IBYqd1hsQ5oQsn+ylBQhm7R99TwaKvm/8ahcPyqQnMQE8Jt3suoUc6tGA1Pr5kdbFJsdxkavyAJshb87yy+XgGNO4BT6dCKmnn1Am7memBptfu6s/FWAclGhYhU2Bq/kie4wmqstxNqev7xGDidsI02jN9DxJDcESXE/hvk5G5VzGKDNcty7TsDVMCFYVkOl/1Y6Y4asdIejYBnXByOQx3serIg4NduT7uTj66qE7smVYTE2Nlt8p3ieSRd609JDTLmwAfYmMA2p309U0HN6DETryb6EtU5gR3iwpGIt2dQKb2IytuzIGklZgXqeO19yNmJHFTBZWVYAa7Va4SyM3GUI1e95DBptaYKTGemcMhJwtjXh9xXtAep/zSlSOOkw5amWBiMJRet/40yuQVO07iknxtzL0z7SW/pPZ8NKq5QWMHcAcbeTKXBxiD9zbw+6HU/ryAUTVXg2YcWNWSemDTxzflrvtLf97tkOhP2rVIBd+vCP4/L/qmxR9DOLwCiqLyXRhQFRtSNRDkrBPYXfnmW6MZrk="
+    on:
+      repo: RSGInc/adbkat
+      tags: true
+      node: "node"
+  - provider: releases
+    api_key:
+      secure: "HqQB+lC2e7EfJ1aYo9Yq2nDHiWtPBErN7xKiwunV+c8Rog0MOtWI5ciI6efcneb2I8rqDry8tbmqlrwWPa3ttKLnHmwp6MuJEsdL9f2fPMA4a6TPBZ8gAhZzJzA+oXuuPS0eNGG/fNUn87ff0zj1k9M831s9mXuCVpHb2qeSL5tL5Ri1awSUquzwKxxGzfTxoP2s4/XXuoIvnsPLIKVHWYQBOmIZJwTbTbicZcbsGutsz7Tqd2xo3xkN9DxF6uLDM3Q8jxGjAie0pufcuNIXyULznn4azw3NJYxaR8Do/ELQhLchbAHrRsl3ZKtKty734tQNlzAouG9olvX6aMfugNUqwVoqoEZSAI+MFoT7FnYd8nbyVtVRqvZNO8xNnAalJLXnW1r63zkSooaFTntj9xaZEmibaQcDs6hfoQNmmGacEHl7uEXRN2qqHSKfbhf+ayeejg/nMDXIWI0WM4mMjRjzSgak61sgE/HEf8dsCsN+E4TjBGLIhiShCtyTW+GY3KBrNAC88TD97fwobFV6m4YffKLtAYD7IOzHyfQqWOZ+ZFGDYO72EyCYq7ALi46w0jLo3W+2ykbNGSpa4PRGoFfkdRF7VlEK8G16tiXFMAKNpPJig1f0MU2VE1MkG0eC94yWoIx5RgVJpQI6PBTQ7Ot5A42N8O3aUO03rVzgEgk="
+    on:
+      repo: RSGInc/adbkat
+      tags: true
+      node: "node"
