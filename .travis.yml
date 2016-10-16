@@ -18,3 +18,10 @@ deploy:
       repo: RSGInc/adbkat
       tags: true
       node: "node"
+  - provider: releases
+    api_key:
+      secure: "HqQB+lC2e7EfJ1aYo9Yq2nDHiWtPBErN7xKiwunV+c8Rog0MOtWI5ciI6efcneb2I8rqDry8tbmqlrwWPa3ttKLnHmwp6MuJEsdL9f2fPMA4a6TPBZ8gAhZzJzA+oXuuPS0eNGG/fNUn87ff0zj1k9M831s9mXuCVpHb2qeSL5tL5Ri1awSUquzwKxxGzfTxoP2s4/XXuoIvnsPLIKVHWYQBOmIZJwTbTbicZcbsGutsz7Tqd2xo3xkN9DxF6uLDM3Q8jxGjAie0pufcuNIXyULznn4azw3NJYxaR8Do/ELQhLchbAHrRsl3ZKtKty734tQNlzAouG9olvX6aMfugNUqwVoqoEZSAI+MFoT7FnYd8nbyVtVRqvZNO8xNnAalJLXnW1r63zkSooaFTntj9xaZEmibaQcDs6hfoQNmmGacEHl7uEXRN2qqHSKfbhf+ayeejg/nMDXIWI0WM4mMjRjzSgak61sgE/HEf8dsCsN+E4TjBGLIhiShCtyTW+GY3KBrNAC88TD97fwobFV6m4YffKLtAYD7IOzHyfQqWOZ+ZFGDYO72EyCYq7ALi46w0jLo3W+2ykbNGSpa4PRGoFfkdRF7VlEK8G16tiXFMAKNpPJig1f0MU2VE1MkG0eC94yWoIx5RgVJpQI6PBTQ7Ot5A42N8O3aUO03rVzgEgk="
+    on:
+      repo: RSGInc/adbkat
+      tags: true
+      node: "node"
