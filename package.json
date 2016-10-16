@@ -1,6 +1,6 @@
 {
   "name": "adbkat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Encapsulates adbkit's client and device within a common structure.",
   "main": "src/index.js",
   "scripts": {
