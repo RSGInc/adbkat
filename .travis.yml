@@ -8,3 +8,13 @@ node_js:
 script:
 - npm run lint
 - npm test
+
+deploy:
+  - provider: npm
+    email: "codestothestars@yahoo.com"
+    api_key:
+      secure: "WaYASGikbqdzmi+XZ/ksIsUWR+BmDIj5h+riygbb77XBOYF4hKoswP7U9EtiNFBMZbu6APoBOZ60t56OsA11yWo+hY72itzPk5tijxCb+a+msHx8bhkDGBAPUPClKjZITLjd/L2P+4TTA42IBYqd1hsQ5oQsn+ylBQhm7R99TwaKvm/8ahcPyqQnMQE8Jt3suoUc6tGA1Pr5kdbFJsdxkavyAJshb87yy+XgGNO4BT6dCKmnn1Am7memBptfu6s/FWAclGhYhU2Bq/kie4wmqstxNqev7xGDidsI02jN9DxJDcESXE/hvk5G5VzGKDNcty7TsDVMCFYVkOl/1Y6Y4asdIejYBnXByOQx3serIg4NduT7uTj66qE7smVYTE2Nlt8p3ieSRd609JDTLmwAfYmMA2p309U0HN6DETryb6EtU5gR3iwpGIt2dQKb2IytuzIGklZgXqeO19yNmJHFTBZWVYAa7Va4SyM3GUI1e95DBptaYKTGemcMhJwtjXh9xXtAep/zSlSOOkw5amWBiMJRet/40yuQVO07iknxtzL0z7SW/pPZ8NKq5QWMHcAcbeTKXBxiD9zbw+6HU/ryAUTVXg2YcWNWSemDTxzflrvtLf97tkOhP2rVIBd+vCP4/L/qmxR9DOLwCiqLyXRhQFRtSNRDkrBPYXfnmW6MZrk="
+    on:
+      repo: RSGInc/adbkat
+      tags: true
+      node: "node"
